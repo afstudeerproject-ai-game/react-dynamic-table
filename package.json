@@ -1,0 +1,33 @@
+{
+  "name": "@aigame/react-dynamic-table",
+  "version": "0.1.0",
+  "description": "Dynamic Table",
+  "main": "dist/index.js",
+  "scripts": {
+    "linter": "tslint -c tslint.json src/**/*.ts src/**/*.tsx",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "author": "Frederic Vogels",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.1",
+    "@types/react-dom": "^17.0.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.8.2",
+    "tsconfig-paths": "^3.9.0",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afstudeerproject-ai-game/react-dynamic-table"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
